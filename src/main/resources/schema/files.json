@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://www.dmix.cloud/schemes/pax_lace_0.0.1.json",
+  "title": "Lace",
+  "description": "Schema for PAX lace attributes",
+  "version": "0.0.1",
+  "properties": {
+    "vendor": {
+      "title": "Company",
+      "description": "name of the vendor company",
+      "type": "string"
+    },
+    "vendorBusinessModel": {
+      "title": "Business Model",
+      "description": "business model of vendor",
+      "type": "string",
+      "enum": [
+        "Fully Vertical",
+        "Vertical",
+        "Converter",
+        "Trader"
+      ]
+    },
+    "name": {
+      "title": "Product Name",
+      "description": "product name",
+      "$comment": "search",
+      "type": "string"
+    },
+    "composition": {
+      "title": "Composition",
+      "description": "composition of lace fabric",
+      "$comment": "search",
+      "type": "array",
+      "items": {
+        "properties": {
+          "number": "integer",
+          "percentage": {
+            "title": "%",
+            "enabled": "boolean",
+            "description": "percentage",
+            "$comment": "search",
+            "type": "number"
+          },
+          "material": {
+            "title": "Material",
+            "description": "Material",
+            "$comment": "search",
+            "type": "string",
+            "enum": [
+              "Ab - Abaca",
+              "Aluminium hydroxide",
+              "Anidex",
+              "Aramid",
+              "Bamboo",
+              "Bison",
+              "Bone",
+              "Wax",
+              "other"
+            ]
+          }
+        }
+      }
+    },
+    "yarnType": {
+      "title": "Yarn Type",
+      "description": "type of yarn used",
+      "$comment": "search",
+      "type": "string",
+      "enum": [
+        "filament yarn",
+        "spun yarn",
+        "other"
+      ]
+    }
+  }
+}
