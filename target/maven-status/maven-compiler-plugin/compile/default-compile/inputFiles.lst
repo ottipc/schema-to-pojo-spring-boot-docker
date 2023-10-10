@@ -1,4 +1,4 @@
-/home/codi/Entwicklung/EI St. Augustin/schema/schema/src/main/java/com/devguy/shematoclassdefintion/ShemaToClassdefintionApplication.java
-/home/codi/Entwicklung/EI St. Augustin/schema/schema/target/generated-sources/jsonschema2pojo/com/devguy/jsonschematojava/Composition.java
-/home/codi/Entwicklung/EI St. Augustin/schema/schema/src/main/java/com/devguy/shematoclassdefintion/Runner.java
-/home/codi/Entwicklung/EI St. Augustin/schema/schema/target/generated-sources/jsonschema2pojo/com/devguy/jsonschematojava/Files.java
+/home/codi/Entwicklung/schema-to-pojo-spring-boot-docker/target/generated-sources/jsonschema2pojo/com/devguy/jsonschematojava/Composition.java
+/home/codi/Entwicklung/schema-to-pojo-spring-boot-docker/src/main/java/com/devguy/shematoclassdefintion/Runner.java
+/home/codi/Entwicklung/schema-to-pojo-spring-boot-docker/target/generated-sources/jsonschema2pojo/com/devguy/jsonschematojava/Files.java
+/home/codi/Entwicklung/schema-to-pojo-spring-boot-docker/src/main/java/com/devguy/shematoclassdefintion/ShemaToClassdefintionApplication.java
