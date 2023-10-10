@@ -21,7 +21,7 @@ public class Messages {
     final static ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
 
     public Messages() {
-
+        LOGGER.debug("Init Messages");
     }
 
     public Composition getComposition1() {
