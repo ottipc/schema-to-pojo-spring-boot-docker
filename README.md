@@ -1,0 +1,1 @@
+# schema-to-pojo-spring-boot-docker
